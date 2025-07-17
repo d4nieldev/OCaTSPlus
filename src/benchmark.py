@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader, TensorDataset
 
 from src.models.knn import KNNClassifier
 from src.caches import CACHE_REGISTRY
-from utils.seeding import set_seed
+from src.utils.seeding import set_seed
 
 def benchmark_cache_model(cache_type: str, lambda_: float, output_dir="results/benchmark", use_tuned_thresholds=True):
     set_seed(42)
@@ -108,5 +108,6 @@ if __name__ == "__main__":
     # - Second parameter: lambda value (distance threshold)[0.05 0.1 0.2 0.3 0.4 0.5 0.6]
     # - Optional: use_tuned_thresholds=False to use original 0.7 entropy threshold
     
-    benchmark_cache_model("lfu", 0.1)
-    benchmark_cache_model("simple", 0.1)
+    # benchmark_cache_model("lfu", 0.1)
+    # benchmark_cache_model("simple", 0.1)
+    benchmark_cache_model("lru",0.1)

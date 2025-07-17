@@ -32,12 +32,18 @@ class LRUCache(BaseCache):
         self._counter   = init_len                        # monotonic clock
 
     def _topk_static(self, query: torch.Tensor):
+        if len(self.database) == 0:
+            # Return empty tensors of appropriate shape
+            return torch.empty(0), torch.empty(0, dtype=torch.long)
+
+        actual_k = min(self.k, len(self.database))
         dist, idx = torch.topk(
             1 - F.cosine_similarity(query, self.database, dim=1),
-            k=self.k,
+            k=actual_k,
             largest=False,
         )
-        return dist, idx          # 1‑D idx
+        return dist, idx
+
 
     @override
     def top_k(self, query: str | torch.Tensor):
