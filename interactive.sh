@@ -26,7 +26,7 @@ fi
 # Default values
 PART=main
 QOS=normal
-TIME="2:00:00"
+TIME="7-00:00:00"
 CPU=4
 MEM="24G"
 GPU=rtx_4090:1

@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from sentence_transformers import SentenceTransformer  # For sentence embeddings
 
 # Local module imports
-from utils.seeding import set_seed  # For setting the seed
-from models.knn import KNNClassifier  # KNN classifier
-from models.mpnet import MPNetClassifier  # MPNet classifier
+from src.utils.seeding import set_seed  # For setting the seed
+from src.models.knn import KNNClassifier  # KNN classifier
+from src.models.mpnet import MPNetClassifier  # MPNet classifier
 from src.caches.base import CACHE_REGISTRY  # For caching functionality
 
 # Third-party library imports
@@ -189,11 +189,17 @@ def main(lamda: float, config: dict, model_name: str, cache_type: str) -> tuple:
     np.savez(npz_path, accs=avg_accs, disc_accs=avg_disc_accs, calls=avg_calls)
     print(f"✅ Saved .npz results to {npz_path}")
 
+    cache_actual_size = len(cache)
+    normalized_accuracy = float(avg_accs[-1]) / cache_actual_size if cache_actual_size > 0 else 0.0
+
+
     # Optional JSON summary
     json_summary = {
         "final_accuracy": float(avg_accs[-1]),
         "final_discounted_accuracy": float(avg_disc_accs[-1]),
-        "total_calls": int(avg_calls[-1])
+        "total_calls": int(avg_calls[-1]),
+        "cache_actual_size": cache_actual_size,
+        "normalized_accuracy": normalized_accuracy
     }
     json_path = os.path.join(result_dir, f"summary_{model_name}_{cache_type}_lambda{lamda}.json")
     with open(json_path, "w") as f:
@@ -231,6 +237,8 @@ if __name__ == "__main__":
     # Iterate over the lambda values
     config = json.load(open(CONFIG_PATH, "r"))
     total_accs, total_disc_accs, total_calls = [], [], []
+    summaries = []  # <== ADD THIS to collect the cache metrics per lambda
+
     for lamda in LAMBDAS:
         # Run the main function
         accs, disc_accs, calls = main(lamda, config, MODEL_NAME, CACHE_TYPE)
@@ -238,6 +246,21 @@ if __name__ == "__main__":
         total_accs.append(accs)
         total_disc_accs.append(disc_accs)
         total_calls.append(calls)
+        
+        # Load the saved JSON summary and collect it
+        summary_path = os.path.join("results", "Evaluate", f"summary_{MODEL_NAME}_{CACHE_TYPE}_lambda{lamda}.json")
+        with open(summary_path, "r") as f:
+            summary = json.load(f)
+            summaries.append((lamda, summary))  # Store tuple of (lambda, summary)
 
+    # Optional: print a table of normalized accuracy, etc.
+    print("\n📊 Final Metrics per Lambda")
+    for lamda, summary in summaries:
+        print(f"λ={lamda:<5} | "
+              f"Accuracy: {summary['final_accuracy']:.4f} | "
+              f"Normalized Accuracy: {summary['normalized_accuracy']:.6f} | "
+              f"Cache Size: {summary['cache_actual_size']} | "
+              f"LLM Calls: {summary['total_calls']}")
+    
     # Plot the results
     plot_results(total_accs, total_disc_accs, total_calls, LAMBDAS, MODEL_NAME)
