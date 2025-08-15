@@ -3,7 +3,11 @@ from torch.utils.data import TensorDataset
 import torch.nn.functional as F  # PyTorch functional interface
 
 from src.caches.base import BaseCache, register_class
-from typing import override, Optional, List
+# from typing import override, Optional, List
+
+from typing_extensions import override
+from typing import Optional, List
+
 
 
 @register_class("simple")
@@ -27,7 +31,9 @@ class SimpleCache(BaseCache):
         encodings: Optional[torch.Tensor] = None,
         labels: Optional[List[int]] = None,
         d_thresh: float = 0.5,
-        k: int = 5
+        k: int = 5,
+        # Note: capacity is ignored in SimpleCache (no eviction logic)
+        capacity: Optional[int] = None  # 👈 NEW, for compatibility
     ) -> None:
         super().__init__(encodings=encodings, labels=labels, d_thresh=d_thresh, k=k)
 
@@ -93,13 +99,14 @@ class SimpleCache(BaseCache):
 
     @override
     def add(self, query: str, label: int | torch.Tensor) -> None:
-        # Add the query to the database
-        self.database = torch.cat((self.database, query))
-        # Add the label to the labels list
+        if isinstance(query, torch.Tensor) and query.dim() == 1:
+            query = query.unsqueeze(0)
+        self.database = torch.cat((self.database, query.to(self.database.device)))
         if isinstance(label, torch.Tensor):
             label = label.item()
-            assert isinstance(label, int)
+        assert isinstance(label, int)
         self.labels.append(label)
+
 
     
     @override
