@@ -11,6 +11,7 @@ dependencies = [
     "neptune-optuna>=1.4.1",
     "optuna>=4.3.0",
     "pandas>=2.3.0",
+    "pytest>=8.4.1",
     "scikit-learn>=1.7.0",
     "sentence-transformers>=4.1.0",
     "torch>=2.7.1",
