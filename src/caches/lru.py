@@ -35,6 +35,8 @@ class LRUCache(BaseCache):
         capacity: int = 100,
     ) -> None:
         super().__init__(encodings=None, labels=None, d_thresh=d_thresh, k=k)
+        if capacity <= 0:
+            raise ValueError("Capacity must be a positive integer.")
         self._capacity = capacity
         # Track access timestamps for LRU eviction
         self._access_time = torch.zeros(0, dtype=torch.long)
@@ -44,15 +46,16 @@ class LRUCache(BaseCache):
 
 
     @override
-    def top_k(self, query: torch.Tensor) -> tuple[torch.Tensor, torch.Tensor]:
+    def top_k(self, query: torch.Tensor, update_counter: bool = True) -> tuple[torch.Tensor, torch.Tensor]:
         # Compute the Cosine distance between the query and the database vectors
         dist = 1 - F.cosine_similarity(query.to(self.database.device), self.database, dim=1)
         # Get the top k nearest neighbors
         d, top_k = torch.topk(dist, k=min(self.k, len(dist)), dim=0, largest=False)
         
         # LRU update: update access times for accessed items
-        self._time_counter += 1
-        self._access_time[top_k] = self._time_counter
+        if update_counter:
+            self._time_counter += 1
+            self._access_time[top_k] = self._time_counter
         
         # Reshape the tensors to have the same shape
         top_k , d = top_k.unsqueeze(0), d.unsqueeze(0)
@@ -74,7 +77,7 @@ class LRUCache(BaseCache):
             The weighted centroid of the top k nearest neighbors of the query.
         """
         # Get the top k nearest neighbors
-        d, top_k = self.top_k(query)
+        d, top_k = self.top_k(query, update_counter=False)
         # Add weights to the top k nearest neighbors
         weights = 1 / (d + 1e-6) ** 2
         # normalize the weights
@@ -105,7 +108,7 @@ class LRUCache(BaseCache):
         # Calculate the weighted centroid
         weighted_centroid = self._topk_w_centroid(query)
         # Calculate the distance between the query and the weighted centroid
-        dist = 1 - F.cosine_similarity(query.to(device=weighted_centroid.device), weighted_centroid, dim=0)
+        dist = 1 - F.cosine_similarity(query.to(device=weighted_centroid.device), weighted_centroid, dim=1)
         return torch.any(dist < self.d_thresh).item()
 
 
@@ -116,6 +119,11 @@ class LRUCache(BaseCache):
             label = label.item()
             assert isinstance(label, int)
 
+        # If similar enough to existing vectors and we want deduplication,
+        # simply skip insertion.
+        if self.is_near(query):
+            return
+        
         # CRITICAL FIX: Check capacity and evict if necessary
         if len(self) < self._capacity:
             # append
@@ -123,11 +131,6 @@ class LRUCache(BaseCache):
             self.labels.append(label)
             self._time_counter += 1
             self._access_time = torch.cat([self._access_time, torch.tensor([self._time_counter], dtype=torch.long, device=self._access_time.device)])
-            return
-        
-        # If similar enough to existing vectors and we want deduplication,
-        # simply skip insertion.
-        if self.is_near(query):
             return
 
         # --------  Eviction path  -------- #
@@ -166,14 +169,11 @@ class LRUCache(BaseCache):
         CRITICAL FIX: Respect capacity during initialization.
         """
         # Only add up to capacity items
+        if len(vectors) != len(labels):
+            raise ValueError("Vectors and labels must have the same length.")
         n_items = min(len(vectors), self._capacity)
         for i in range(n_items):
             self.add(vectors[i], labels[i])
-    
-    
-    def __len__(self) -> int:
-        """Return the actual number of items in the cache."""
-        return len(self.labels) if hasattr(self, 'labels') else 0
     
     
     def get_last_p_added(self, p: int) -> List[tuple[torch.Tensor, torch.Tensor]]:
