@@ -53,6 +53,10 @@ To evaluate the framework, you can use the following command:
 ```eval
 python main.py --config <config_file> --lambdas <lambdas> --train_path <train_path> --test_path <test_path> --model <model> 
 ```
+To evaluate the framework enable the eviction mechanisem, you can use the following command:
+```eval
+python main.py --config <config_file> --lambdas <lambdas> --train_path <train_path> --test_path <test_path> --model <model> --cache_type <cache_type>
+```
 
 You can also use the scripts without any arguments. In this case, the scripts will use the default values which are for the main experiment in the paper. 
 
