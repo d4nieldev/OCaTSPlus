@@ -1,0 +1,17 @@
+{
+  "cache_type": "lfu",
+  "lambda": 0.1,
+  "entropy_threshold": 0.5538362439230712,
+  "mean_latency_sec": 0.0003458729331296953,
+  "p95_latency_sec": 0.0003631433006376028,
+  "p99_latency_sec": 0.00039135213475674393,
+  "cache_hit_rate": 0.2577922077922078,
+  "throughput_qps": 2891.235202914882,
+  "total_queries": 3080,
+  "total_llm_calls": 2286,
+  "total_cache_hits": 794,
+  "total_duration_sec": 1.0652886340394616,
+  "accuracy": 0.2392857142857143,
+  "cache_actual_size": 100,
+  "normalized_accuracy": 0.0023928571428571428
+}

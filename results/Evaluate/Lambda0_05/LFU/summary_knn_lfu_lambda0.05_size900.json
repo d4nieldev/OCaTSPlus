@@ -1,0 +1,8 @@
+{
+  "final_accuracy": 0.8270779220779222,
+  "final_discounted_accuracy": 0.8109772727272727,
+  "total_calls": 991,
+  "cache_actual_size": 900,
+  "normalized_accuracy": 0.0009189754689754691,
+  "hit_ratio": 0.6779870129870129
+}
