@@ -1,0 +1,1602 @@
+[
+  {
+    "number": 0,
+    "state": "1",
+    "values": [
+      4.342862486839294,
+      0.00999000999000999
+    ],
+    "params": {
+      "lr": 1.2878304879182138e-05,
+      "batch_size": 256,
+      "epochs": 9,
+      "hidden_size": 1024,
+      "dropout": 0.3585004138357556,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 1,
+    "state": "1",
+    "values": [
+      3.964886099100113,
+      0.5604395604395604
+    ],
+    "params": {
+      "lr": 0.0005403931764386921,
+      "batch_size": 128,
+      "epochs": 30,
+      "hidden_size": 256,
+      "dropout": 0.11974207145316199,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 2,
+    "state": "1",
+    "values": [
+      3.1700236201286316,
+      0.6033966033966034
+    ],
+    "params": {
+      "lr": 0.0003935678857853113,
+      "batch_size": 256,
+      "epochs": 82,
+      "hidden_size": 512,
+      "dropout": 0.12904738982621647,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 3,
+    "state": "1",
+    "values": [
+      1.043240249156952,
+      0.6953046953046953
+    ],
+    "params": {
+      "lr": 0.014662349381631306,
+      "batch_size": 512,
+      "epochs": 94,
+      "hidden_size": 512,
+      "dropout": 0.2673017133353358,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 4,
+    "state": "1",
+    "values": [
+      0.9895300939679146,
+      0.7172827172827173
+    ],
+    "params": {
+      "lr": 0.004806316335641804,
+      "batch_size": 128,
+      "epochs": 69,
+      "hidden_size": 512,
+      "dropout": 0.13077732588143381,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 5,
+    "state": "1",
+    "values": [
+      1.2826561331748962,
+      0.6323676323676324
+    ],
+    "params": {
+      "lr": 0.025758396180062208,
+      "batch_size": 128,
+      "epochs": 58,
+      "hidden_size": 1024,
+      "dropout": 0.463707726757545,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 6,
+    "state": "1",
+    "values": [
+      4.260900527238846,
+      0.5284715284715285
+    ],
+    "params": {
+      "lr": 6.671425964547659e-05,
+      "batch_size": 64,
+      "epochs": 25,
+      "hidden_size": 1024,
+      "dropout": 0.2923062025503739,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 7,
+    "state": "1",
+    "values": [
+      1.2391664683818817,
+      0.6993006993006993
+    ],
+    "params": {
+      "lr": 0.0029972666495046547,
+      "batch_size": 64,
+      "epochs": 8,
+      "hidden_size": 1024,
+      "dropout": 0.30128275970270524,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 8,
+    "state": "1",
+    "values": [
+      4.292028963565826,
+      0.23576423576423577
+    ],
+    "params": {
+      "lr": 1.3771411783686823e-05,
+      "batch_size": 64,
+      "epochs": 75,
+      "hidden_size": 512,
+      "dropout": 0.1173109567761017,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 9,
+    "state": "1",
+    "values": [
+      1.3934203311800957,
+      0.6143856143856143
+    ],
+    "params": {
+      "lr": 0.04382248613407696,
+      "batch_size": 64,
+      "epochs": 65,
+      "hidden_size": 256,
+      "dropout": 0.47311290285559904,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 10,
+    "state": "1",
+    "values": [
+      4.168151319026947,
+      0.6213786213786214
+    ],
+    "params": {
+      "lr": 0.00010902896870569614,
+      "batch_size": 128,
+      "epochs": 50,
+      "hidden_size": 1024,
+      "dropout": 0.26839009276265713,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 11,
+    "state": "1",
+    "values": [
+      4.03833144903183,
+      0.6243756243756243
+    ],
+    "params": {
+      "lr": 8.713112634967777e-05,
+      "batch_size": 64,
+      "epochs": 49,
+      "hidden_size": 512,
+      "dropout": 0.22522447624181874,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 12,
+    "state": "1",
+    "values": [
+      4.328206300735474,
+      0.053946053946053944
+    ],
+    "params": {
+      "lr": 2.1075811423098594e-05,
+      "batch_size": 256,
+      "epochs": 25,
+      "hidden_size": 1024,
+      "dropout": 0.14463744810506177,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 13,
+    "state": "1",
+    "values": [
+      4.150397181510925,
+      0.5784215784215784
+    ],
+    "params": {
+      "lr": 0.0035755189910164314,
+      "batch_size": 256,
+      "epochs": 6,
+      "hidden_size": 256,
+      "dropout": 0.23824477440675773,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 14,
+    "state": "1",
+    "values": [
+      4.327306509017944,
+      0.11788211788211789
+    ],
+    "params": {
+      "lr": 0.000902177008677146,
+      "batch_size": 512,
+      "epochs": 2,
+      "hidden_size": 512,
+      "dropout": 0.2815470578622763,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 15,
+    "state": "1",
+    "values": [
+      0.951997309923172,
+      0.7152847152847153
+    ],
+    "params": {
+      "lr": 0.0009783960355330943,
+      "batch_size": 128,
+      "epochs": 99,
+      "hidden_size": 1024,
+      "dropout": 0.2270710674197317,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 16,
+    "state": "1",
+    "values": [
+      3.7268323749303818,
+      0.5494505494505495
+    ],
+    "params": {
+      "lr": 0.0002393417416199038,
+      "batch_size": 64,
+      "epochs": 40,
+      "hidden_size": 256,
+      "dropout": 0.11258265187272101,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 17,
+    "state": "1",
+    "values": [
+      0.9716680273413658,
+      0.7262737262737263
+    ],
+    "params": {
+      "lr": 0.003362490644859862,
+      "batch_size": 64,
+      "epochs": 82,
+      "hidden_size": 512,
+      "dropout": 0.16150715505199315,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 18,
+    "state": "1",
+    "values": [
+      4.252642393112183,
+      0.4195804195804196
+    ],
+    "params": {
+      "lr": 0.00014166962252791897,
+      "batch_size": 512,
+      "epochs": 78,
+      "hidden_size": 256,
+      "dropout": 0.2857477615993167,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 19,
+    "state": "1",
+    "values": [
+      4.335615783929825,
+      0.03196803196803197
+    ],
+    "params": {
+      "lr": 4.987097525176625e-05,
+      "batch_size": 64,
+      "epochs": 12,
+      "hidden_size": 256,
+      "dropout": 0.2555828068048275,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 20,
+    "state": "1",
+    "values": [
+      0.9580452293157578,
+      0.7202797202797203
+    ],
+    "params": {
+      "lr": 0.0017836206680138032,
+      "batch_size": 256,
+      "epochs": 80,
+      "hidden_size": 1024,
+      "dropout": 0.48795611531142646,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 21,
+    "state": "1",
+    "values": [
+      1.699941173195839,
+      0.5644355644355644
+    ],
+    "params": {
+      "lr": 0.046958030921006304,
+      "batch_size": 64,
+      "epochs": 89,
+      "hidden_size": 512,
+      "dropout": 0.2788336901702646,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 22,
+    "state": "1",
+    "values": [
+      4.305241107940674,
+      0.2827172827172827
+    ],
+    "params": {
+      "lr": 8.364088018234956e-05,
+      "batch_size": 64,
+      "epochs": 11,
+      "hidden_size": 1024,
+      "dropout": 0.1778231925583097,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 23,
+    "state": "1",
+    "values": [
+      4.331324338912964,
+      0.058941058941058944
+    ],
+    "params": {
+      "lr": 4.109345674333851e-05,
+      "batch_size": 256,
+      "epochs": 54,
+      "hidden_size": 256,
+      "dropout": 0.24563024267415276,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 24,
+    "state": "1",
+    "values": [
+      3.1720603704452515,
+      0.6293706293706294
+    ],
+    "params": {
+      "lr": 0.0007301970957078164,
+      "batch_size": 512,
+      "epochs": 56,
+      "hidden_size": 512,
+      "dropout": 0.38973892290104484,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 25,
+    "state": "1",
+    "values": [
+      4.29998317360878,
+      0.24875124875124874
+    ],
+    "params": {
+      "lr": 8.942768169668151e-05,
+      "batch_size": 64,
+      "epochs": 21,
+      "hidden_size": 512,
+      "dropout": 0.35056895409516176,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 26,
+    "state": "1",
+    "values": [
+      1.0050635114312172,
+      0.7072927072927073
+    ],
+    "params": {
+      "lr": 0.006502586341030175,
+      "batch_size": 128,
+      "epochs": 99,
+      "hidden_size": 512,
+      "dropout": 0.14773716083048083,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 27,
+    "state": "1",
+    "values": [
+      4.28801703453064,
+      0.23676323676323677
+    ],
+    "params": {
+      "lr": 0.00011381760466695378,
+      "batch_size": 512,
+      "epochs": 73,
+      "hidden_size": 256,
+      "dropout": 0.3657823963916177,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 28,
+    "state": "1",
+    "values": [
+      2.0137293487787247,
+      0.5784215784215784
+    ],
+    "params": {
+      "lr": 0.07500885771099043,
+      "batch_size": 64,
+      "epochs": 85,
+      "hidden_size": 256,
+      "dropout": 0.3315606873117437,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 29,
+    "state": "1",
+    "values": [
+      1.2323724403977394,
+      0.6883116883116883
+    ],
+    "params": {
+      "lr": 0.03217682330311759,
+      "batch_size": 64,
+      "epochs": 41,
+      "hidden_size": 256,
+      "dropout": 0.21108652060130836,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 30,
+    "state": "1",
+    "values": [
+      0.9930641204118729,
+      0.7152847152847153
+    ],
+    "params": {
+      "lr": 0.0032394743221450706,
+      "batch_size": 256,
+      "epochs": 68,
+      "hidden_size": 1024,
+      "dropout": 0.39222109327413657,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 31,
+    "state": "1",
+    "values": [
+      2.1833575963974,
+      0.6583416583416584
+    ],
+    "params": {
+      "lr": 0.010221377702958745,
+      "batch_size": 256,
+      "epochs": 8,
+      "hidden_size": 512,
+      "dropout": 0.39145268876053196,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 32,
+    "state": "1",
+    "values": [
+      3.6379700899124146,
+      0.6183816183816184
+    ],
+    "params": {
+      "lr": 0.0002868829257950877,
+      "batch_size": 512,
+      "epochs": 86,
+      "hidden_size": 512,
+      "dropout": 0.4776461126757616,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 33,
+    "state": "1",
+    "values": [
+      1.0995677709579468,
+      0.7132867132867133
+    ],
+    "params": {
+      "lr": 0.004368187000261327,
+      "batch_size": 512,
+      "epochs": 15,
+      "hidden_size": 1024,
+      "dropout": 0.28893781370164195,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 34,
+    "state": "1",
+    "values": [
+      2.911301612854004,
+      0.4835164835164835
+    ],
+    "params": {
+      "lr": 0.08192114846868544,
+      "batch_size": 512,
+      "epochs": 30,
+      "hidden_size": 1024,
+      "dropout": 0.2223638135378553,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 35,
+    "state": "1",
+    "values": [
+      4.331723570823669,
+      0.0989010989010989
+    ],
+    "params": {
+      "lr": 3.151097039523808e-05,
+      "batch_size": 256,
+      "epochs": 58,
+      "hidden_size": 256,
+      "dropout": 0.1386637872892137,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 36,
+    "state": "1",
+    "values": [
+      0.9502386152744293,
+      0.7272727272727273
+    ],
+    "params": {
+      "lr": 0.0012158401746141503,
+      "batch_size": 128,
+      "epochs": 99,
+      "hidden_size": 512,
+      "dropout": 0.4644252275949112,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 37,
+    "state": "1",
+    "values": [
+      0.9791991747915745,
+      0.7182817182817183
+    ],
+    "params": {
+      "lr": 0.0012527254012988588,
+      "batch_size": 64,
+      "epochs": 32,
+      "hidden_size": 1024,
+      "dropout": 0.10110861057163052,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 38,
+    "state": "1",
+    "values": [
+      4.210582911968231,
+      0.5834165834165834
+    ],
+    "params": {
+      "lr": 4.556794355488003e-05,
+      "batch_size": 128,
+      "epochs": 91,
+      "hidden_size": 1024,
+      "dropout": 0.16638493407266403,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 39,
+    "state": "1",
+    "values": [
+      4.308093011379242,
+      0.17082917082917082
+    ],
+    "params": {
+      "lr": 1.0673117614939929e-05,
+      "batch_size": 128,
+      "epochs": 76,
+      "hidden_size": 1024,
+      "dropout": 0.30156282914476945,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 40,
+    "state": "1",
+    "values": [
+      3.8570235520601273,
+      0.5714285714285714
+    ],
+    "params": {
+      "lr": 0.00010181114824089928,
+      "batch_size": 64,
+      "epochs": 77,
+      "hidden_size": 512,
+      "dropout": 0.25001680527983094,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 41,
+    "state": "1",
+    "values": [
+      1.0159735083580017,
+      0.7052947052947053
+    ],
+    "params": {
+      "lr": 0.005275699537205306,
+      "batch_size": 512,
+      "epochs": 51,
+      "hidden_size": 512,
+      "dropout": 0.27893238949115207,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 42,
+    "state": "1",
+    "values": [
+      1.080651193857193,
+      0.7172827172827173
+    ],
+    "params": {
+      "lr": 0.0007076076213199527,
+      "batch_size": 64,
+      "epochs": 86,
+      "hidden_size": 256,
+      "dropout": 0.34676001681074214,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 43,
+    "state": "1",
+    "values": [
+      3.329349786043167,
+      0.6103896103896104
+    ],
+    "params": {
+      "lr": 0.0004728199083357061,
+      "batch_size": 128,
+      "epochs": 48,
+      "hidden_size": 256,
+      "dropout": 0.1833965989924035,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 44,
+    "state": "1",
+    "values": [
+      1.0443194434046745,
+      0.7042957042957043
+    ],
+    "params": {
+      "lr": 0.011757843891465622,
+      "batch_size": 128,
+      "epochs": 40,
+      "hidden_size": 1024,
+      "dropout": 0.3435365630203221,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 45,
+    "state": "1",
+    "values": [
+      1.164700724184513,
+      0.6713286713286714
+    ],
+    "params": {
+      "lr": 0.023690357930197747,
+      "batch_size": 128,
+      "epochs": 36,
+      "hidden_size": 256,
+      "dropout": 0.15370544386711216,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 46,
+    "state": "1",
+    "values": [
+      4.341718077659607,
+      0.012987012987012988
+    ],
+    "params": {
+      "lr": 7.533807731268916e-05,
+      "batch_size": 256,
+      "epochs": 4,
+      "hidden_size": 512,
+      "dropout": 0.45647688121374086,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 47,
+    "state": "1",
+    "values": [
+      0.9536898359656334,
+      0.7192807192807192
+    ],
+    "params": {
+      "lr": 0.004536923973082247,
+      "batch_size": 128,
+      "epochs": 47,
+      "hidden_size": 256,
+      "dropout": 0.32496577970079876,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 48,
+    "state": "1",
+    "values": [
+      1.2718466371297836,
+      0.7052947052947053
+    ],
+    "params": {
+      "lr": 0.0009352576173809452,
+      "batch_size": 128,
+      "epochs": 64,
+      "hidden_size": 512,
+      "dropout": 0.4879313191301188,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 49,
+    "state": "1",
+    "values": [
+      3.800747036933899,
+      0.6073926073926074
+    ],
+    "params": {
+      "lr": 0.00026543431471585775,
+      "batch_size": 256,
+      "epochs": 85,
+      "hidden_size": 256,
+      "dropout": 0.269098894629748,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 50,
+    "state": "1",
+    "values": [
+      1.1016608476638794,
+      0.7102897102897103
+    ],
+    "params": {
+      "lr": 0.004368187000261327,
+      "batch_size": 512,
+      "epochs": 15,
+      "hidden_size": 1024,
+      "dropout": 0.28893781370164195,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 51,
+    "state": "1",
+    "values": [
+      4.31973397731781,
+      0.14085914085914086
+    ],
+    "params": {
+      "lr": 6.671425964547659e-05,
+      "batch_size": 256,
+      "epochs": 25,
+      "hidden_size": 1024,
+      "dropout": 0.2923062025503739,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 52,
+    "state": "1",
+    "values": [
+      1.1426902301609516,
+      0.6703296703296703
+    ],
+    "params": {
+      "lr": 0.025758396180062208,
+      "batch_size": 64,
+      "epochs": 58,
+      "hidden_size": 256,
+      "dropout": 0.21108652060130836,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 53,
+    "state": "1",
+    "values": [
+      4.33460795879364,
+      0.023976023976023976
+    ],
+    "params": {
+      "lr": 2.1075811423098594e-05,
+      "batch_size": 256,
+      "epochs": 25,
+      "hidden_size": 512,
+      "dropout": 0.14463744810506177,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 54,
+    "state": "1",
+    "values": [
+      4.325300693511963,
+      0.10589410589410589
+    ],
+    "params": {
+      "lr": 0.0004728199083357061,
+      "batch_size": 256,
+      "epochs": 6,
+      "hidden_size": 256,
+      "dropout": 0.16856737881473294,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 55,
+    "state": "1",
+    "values": [
+      3.326129198074341,
+      0.6333666333666333
+    ],
+    "params": {
+      "lr": 0.0002868829257950877,
+      "batch_size": 256,
+      "epochs": 77,
+      "hidden_size": 1024,
+      "dropout": 0.48795611531142646,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 56,
+    "state": "1",
+    "values": [
+      4.284818649291992,
+      0.44755244755244755
+    ],
+    "params": {
+      "lr": 0.00010902896870569614,
+      "batch_size": 128,
+      "epochs": 23,
+      "hidden_size": 1024,
+      "dropout": 0.26839009276265713,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 57,
+    "state": "1",
+    "values": [
+      2.5928460359573364,
+      0.6383616383616384
+    ],
+    "params": {
+      "lr": 0.0004838569407253172,
+      "batch_size": 512,
+      "epochs": 99,
+      "hidden_size": 512,
+      "dropout": 0.4644252275949112,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 58,
+    "state": "1",
+    "values": [
+      1.519223228096962,
+      0.7152847152847153
+    ],
+    "params": {
+      "lr": 0.0004728199083357061,
+      "batch_size": 128,
+      "epochs": 85,
+      "hidden_size": 512,
+      "dropout": 0.269098894629748,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 59,
+    "state": "1",
+    "values": [
+      0.9524669237434864,
+      0.7272727272727273
+    ],
+    "params": {
+      "lr": 0.004536923973082247,
+      "batch_size": 64,
+      "epochs": 65,
+      "hidden_size": 256,
+      "dropout": 0.32496577970079876,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 60,
+    "state": "1",
+    "values": [
+      2.3164992332458496,
+      0.44955044955044954
+    ],
+    "params": {
+      "lr": 0.07500885771099043,
+      "batch_size": 512,
+      "epochs": 15,
+      "hidden_size": 1024,
+      "dropout": 0.3315606873117437,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 61,
+    "state": "1",
+    "values": [
+      2.414996325969696,
+      0.6413586413586414
+    ],
+    "params": {
+      "lr": 0.010221377702958745,
+      "batch_size": 256,
+      "epochs": 8,
+      "hidden_size": 256,
+      "dropout": 0.10968810026232943,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 62,
+    "state": "1",
+    "values": [
+      0.9960867166519165,
+      0.7102897102897103
+    ],
+    "params": {
+      "lr": 0.005275699537205306,
+      "batch_size": 512,
+      "epochs": 51,
+      "hidden_size": 512,
+      "dropout": 0.41660317322729845,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 63,
+    "state": "1",
+    "values": [
+      0.9483605623245239,
+      0.7232767232767233
+    ],
+    "params": {
+      "lr": 0.0009783960355330943,
+      "batch_size": 128,
+      "epochs": 99,
+      "hidden_size": 1024,
+      "dropout": 0.45457719752795245,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 64,
+    "state": "1",
+    "values": [
+      1.3804332613945007,
+      0.6223776223776224
+    ],
+    "params": {
+      "lr": 0.07500885771099043,
+      "batch_size": 512,
+      "epochs": 25,
+      "hidden_size": 256,
+      "dropout": 0.4235440067247541,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 65,
+    "state": "1",
+    "values": [
+      1.3425333052873611,
+      0.7142857142857143
+    ],
+    "params": {
+      "lr": 0.0009352576173809452,
+      "batch_size": 128,
+      "epochs": 64,
+      "hidden_size": 512,
+      "dropout": 0.4879313191301188,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 66,
+    "state": "1",
+    "values": [
+      0.9552202895283699,
+      0.7202797202797203
+    ],
+    "params": {
+      "lr": 0.0015528515993771088,
+      "batch_size": 128,
+      "epochs": 68,
+      "hidden_size": 1024,
+      "dropout": 0.2503526941077805,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 67,
+    "state": "1",
+    "values": [
+      0.993578165769577,
+      0.7132867132867133
+    ],
+    "params": {
+      "lr": 0.003362490644859862,
+      "batch_size": 512,
+      "epochs": 68,
+      "hidden_size": 1024,
+      "dropout": 0.16150715505199315,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 68,
+    "state": "1",
+    "values": [
+      1.0451390743255615,
+      0.7012987012987013
+    ],
+    "params": {
+      "lr": 0.011757843891465622,
+      "batch_size": 512,
+      "epochs": 40,
+      "hidden_size": 512,
+      "dropout": 0.38973892290104484,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 69,
+    "state": "1",
+    "values": [
+      0.9657880999147892,
+      0.7152847152847153
+    ],
+    "params": {
+      "lr": 0.004806316335641804,
+      "batch_size": 64,
+      "epochs": 69,
+      "hidden_size": 256,
+      "dropout": 0.13077732588143381,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 70,
+    "state": "1",
+    "values": [
+      1.2289491593837738,
+      0.7082917082917083
+    ],
+    "params": {
+      "lr": 0.0012527254012988588,
+      "batch_size": 64,
+      "epochs": 32,
+      "hidden_size": 256,
+      "dropout": 0.10110861057163052,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 71,
+    "state": "1",
+    "values": [
+      0.978646457195282,
+      0.7202797202797203
+    ],
+    "params": {
+      "lr": 0.0029369931780509834,
+      "batch_size": 256,
+      "epochs": 80,
+      "hidden_size": 512,
+      "dropout": 0.39145268876053196,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 72,
+    "state": "1",
+    "values": [
+      1.949291154742241,
+      0.6933066933066933
+    ],
+    "params": {
+      "lr": 0.0007301970957078164,
+      "batch_size": 128,
+      "epochs": 56,
+      "hidden_size": 512,
+      "dropout": 0.38973892290104484,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 73,
+    "state": "1",
+    "values": [
+      4.332669019699097,
+      0.0919080919080919
+    ],
+    "params": {
+      "lr": 1.2878304879182138e-05,
+      "batch_size": 256,
+      "epochs": 65,
+      "hidden_size": 1024,
+      "dropout": 0.3585004138357556,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 74,
+    "state": "1",
+    "values": [
+      1.117143601179123,
+      0.6713286713286714
+    ],
+    "params": {
+      "lr": 0.025758396180062208,
+      "batch_size": 128,
+      "epochs": 78,
+      "hidden_size": 256,
+      "dropout": 0.463707726757545,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 75,
+    "state": "1",
+    "values": [
+      4.337836146354675,
+      0.023976023976023976
+    ],
+    "params": {
+      "lr": 1.2089333143057964e-05,
+      "batch_size": 64,
+      "epochs": 32,
+      "hidden_size": 256,
+      "dropout": 0.15370544386711216,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 76,
+    "state": "1",
+    "values": [
+      1.114213041961193,
+      0.6663336663336663
+    ],
+    "params": {
+      "lr": 0.023690357930197747,
+      "batch_size": 128,
+      "epochs": 36,
+      "hidden_size": 1024,
+      "dropout": 0.48795611531142646,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 77,
+    "state": "1",
+    "values": [
+      0.9726674631237984,
+      0.7222777222777222
+    ],
+    "params": {
+      "lr": 0.005275699537205306,
+      "batch_size": 128,
+      "epochs": 51,
+      "hidden_size": 512,
+      "dropout": 0.28893781370164195,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 78,
+    "state": "1",
+    "values": [
+      0.948218047618866,
+      0.7142857142857143
+    ],
+    "params": {
+      "lr": 0.0017836206680138032,
+      "batch_size": 512,
+      "epochs": 80,
+      "hidden_size": 1024,
+      "dropout": 0.28893781370164195,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 79,
+    "state": "1",
+    "values": [
+      3.166653633117676,
+      0.6193806193806194
+    ],
+    "params": {
+      "lr": 0.0007301970957078164,
+      "batch_size": 512,
+      "epochs": 56,
+      "hidden_size": 512,
+      "dropout": 0.38973892290104484,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 80,
+    "state": "1",
+    "values": [
+      1.2747136130928993,
+      0.6453546453546454
+    ],
+    "params": {
+      "lr": 0.023690357930197747,
+      "batch_size": 128,
+      "epochs": 36,
+      "hidden_size": 1024,
+      "dropout": 0.26839009276265713,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 81,
+    "state": "1",
+    "values": [
+      2.668850541114807,
+      0.6403596403596403
+    ],
+    "params": {
+      "lr": 0.0017836206680138032,
+      "batch_size": 512,
+      "epochs": 25,
+      "hidden_size": 512,
+      "dropout": 0.48795611531142646,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 82,
+    "state": "1",
+    "values": [
+      3.1694377064704895,
+      0.6143856143856143
+    ],
+    "params": {
+      "lr": 0.0003935678857853113,
+      "batch_size": 256,
+      "epochs": 82,
+      "hidden_size": 512,
+      "dropout": 0.12904738982621647,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 83,
+    "state": "1",
+    "values": [
+      1.1593195497989655,
+      0.6573426573426573
+    ],
+    "params": {
+      "lr": 0.046958030921006304,
+      "batch_size": 256,
+      "epochs": 65,
+      "hidden_size": 512,
+      "dropout": 0.2788336901702646,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 84,
+    "state": "1",
+    "values": [
+      4.332061171531677,
+      0.05094905094905095
+    ],
+    "params": {
+      "lr": 0.0002393417416199038,
+      "batch_size": 256,
+      "epochs": 8,
+      "hidden_size": 256,
+      "dropout": 0.11258265187272101,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 85,
+    "state": "1",
+    "values": [
+      0.9543690979480743,
+      0.7252747252747253
+    ],
+    "params": {
+      "lr": 0.0017836206680138032,
+      "batch_size": 256,
+      "epochs": 80,
+      "hidden_size": 1024,
+      "dropout": 0.48795611531142646,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 86,
+    "state": "1",
+    "values": [
+      0.9755085706710815,
+      0.7182817182817183
+    ],
+    "params": {
+      "lr": 0.004368187000261327,
+      "batch_size": 512,
+      "epochs": 82,
+      "hidden_size": 512,
+      "dropout": 0.16187863136084527,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 87,
+    "state": "1",
+    "values": [
+      1.2493979260325432,
+      0.6663336663336663
+    ],
+    "params": {
+      "lr": 0.025758396180062208,
+      "batch_size": 64,
+      "epochs": 58,
+      "hidden_size": 256,
+      "dropout": 0.2932473199017527,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 88,
+    "state": "1",
+    "values": [
+      0.9483763724565506,
+      0.7202797202797203
+    ],
+    "params": {
+      "lr": 0.0012158401746141503,
+      "batch_size": 128,
+      "epochs": 99,
+      "hidden_size": 1024,
+      "dropout": 0.4644252275949112,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 89,
+    "state": "1",
+    "values": [
+      2.5015764236450195,
+      0.6573426573426573
+    ],
+    "params": {
+      "lr": 0.0007301970957078164,
+      "batch_size": 512,
+      "epochs": 56,
+      "hidden_size": 1024,
+      "dropout": 0.38973892290104484,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 90,
+    "state": "1",
+    "values": [
+      1.9126864671707153,
+      0.7132867132867133
+    ],
+    "params": {
+      "lr": 0.0009783960355330943,
+      "batch_size": 128,
+      "epochs": 48,
+      "hidden_size": 256,
+      "dropout": 0.2246904686959419,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 91,
+    "state": "1",
+    "values": [
+      1.1521066427230835,
+      0.6723276723276723
+    ],
+    "params": {
+      "lr": 0.020252430096756802,
+      "batch_size": 128,
+      "epochs": 99,
+      "hidden_size": 512,
+      "dropout": 0.14773716083048083,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 92,
+    "state": "1",
+    "values": [
+      3.7252256870269775,
+      0.5984015984015985
+    ],
+    "params": {
+      "lr": 0.0001586039102294388,
+      "batch_size": 128,
+      "epochs": 69,
+      "hidden_size": 512,
+      "dropout": 0.32496577970079876,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 93,
+    "state": "1",
+    "values": [
+      0.9705645442008972,
+      0.7242757242757243
+    ],
+    "params": {
+      "lr": 0.0032394743221450706,
+      "batch_size": 256,
+      "epochs": 68,
+      "hidden_size": 512,
+      "dropout": 0.39222109327413657,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 94,
+    "state": "1",
+    "values": [
+      3.013930559158325,
+      0.6373626373626373
+    ],
+    "params": {
+      "lr": 0.003362490644859862,
+      "batch_size": 512,
+      "epochs": 15,
+      "hidden_size": 256,
+      "dropout": 0.269098894629748,
+      "activation": "tanh"
+    }
+  },
+  {
+    "number": 95,
+    "state": "1",
+    "values": [
+      0.9614852741360664,
+      0.7222777222777222
+    ],
+    "params": {
+      "lr": 0.001490350419413651,
+      "batch_size": 128,
+      "epochs": 69,
+      "hidden_size": 512,
+      "dropout": 0.10110861057163052,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 96,
+    "state": "1",
+    "values": [
+      0.9949585944414139,
+      0.7152847152847153
+    ],
+    "params": {
+      "lr": 0.0007301970957078164,
+      "batch_size": 64,
+      "epochs": 85,
+      "hidden_size": 512,
+      "dropout": 0.38973892290104484,
+      "activation": "hardswish"
+    }
+  },
+  {
+    "number": 97,
+    "state": "1",
+    "values": [
+      3.7866662740707397,
+      0.5954045954045954
+    ],
+    "params": {
+      "lr": 0.0003935678857853113,
+      "batch_size": 512,
+      "epochs": 60,
+      "hidden_size": 512,
+      "dropout": 0.269098894629748,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 98,
+    "state": "1",
+    "values": [
+      1.0150079429149628,
+      0.7132867132867133
+    ],
+    "params": {
+      "lr": 0.004806316335641804,
+      "batch_size": 128,
+      "epochs": 89,
+      "hidden_size": 512,
+      "dropout": 0.2788336901702646,
+      "activation": "silu"
+    }
+  },
+  {
+    "number": 99,
+    "state": "1",
+    "values": [
+      0.9962853565812111,
+      0.7112887112887113
+    ],
+    "params": {
+      "lr": 0.004806316335641804,
+      "batch_size": 128,
+      "epochs": 69,
+      "hidden_size": 1024,
+      "dropout": 0.13077732588143381,
+      "activation": "relu"
+    }
+  }
+]

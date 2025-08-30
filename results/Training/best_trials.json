@@ -1,0 +1,47 @@
+[
+  {
+    "number": 36,
+    "values": [
+      0.9502386152744293,
+      0.7272727272727273
+    ],
+    "params": {
+      "lr": 0.0012158401746141503,
+      "batch_size": 128,
+      "epochs": 99,
+      "hidden_size": 512,
+      "dropout": 0.4644252275949112,
+      "activation": "gelu"
+    }
+  },
+  {
+    "number": 63,
+    "values": [
+      0.9483605623245239,
+      0.7232767232767233
+    ],
+    "params": {
+      "lr": 0.0009783960355330943,
+      "batch_size": 128,
+      "epochs": 99,
+      "hidden_size": 1024,
+      "dropout": 0.45457719752795245,
+      "activation": "relu"
+    }
+  },
+  {
+    "number": 78,
+    "values": [
+      0.948218047618866,
+      0.7142857142857143
+    ],
+    "params": {
+      "lr": 0.0017836206680138032,
+      "batch_size": 512,
+      "epochs": 80,
+      "hidden_size": 1024,
+      "dropout": 0.28893781370164195,
+      "activation": "tanh"
+    }
+  }
+]

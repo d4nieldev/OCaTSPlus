@@ -1,0 +1,473 @@
+{
+    "lambda-tuning-cache": {
+        "0.05": [
+            {
+                "trial_number": 0,
+                "params": {
+                    "Entropy Threshold": 0.33221487368536473,
+                    "Distance Threshold": 1.9038928974993365
+                },
+                "value": 0.7807692307692308,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8171828171828172,
+                    "Calls": 729
+                }
+            },
+            {
+                "trial_number": 1,
+                "params": {
+                    "Entropy Threshold": 0.5538362439230712,
+                    "Distance Threshold": 1.2173840441842214
+                },
+                "value": 0.8005994005994006,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8291708291708292,
+                    "Calls": 572
+                }
+            },
+            {
+                "trial_number": 2,
+                "params": {
+                    "Entropy Threshold": 0.19673155707431064,
+                    "Distance Threshold": 0.35418931465559517
+                },
+                "value": 0.7765734265734267,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8151848151848152,
+                    "Calls": 773
+                }
+            },
+            {
+                "trial_number": 3,
+                "params": {
+                    "Entropy Threshold": 0.13601183954428367,
+                    "Distance Threshold": 1.7390434842611235
+                },
+                "value": 0.7772227772227772,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8161838161838162,
+                    "Calls": 780
+                }
+            },
+            {
+                "trial_number": 4,
+                "params": {
+                    "Entropy Threshold": 0.47269130728078945,
+                    "Distance Threshold": 1.4307415267022887
+                },
+                "value": 0.793956043956044,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8251748251748252,
+                    "Calls": 625
+                }
+            }
+        ],
+        "0.1": [
+            {
+                "trial_number": 0,
+                "params": {
+                    "Entropy Threshold": 0.33221487368536473,
+                    "Distance Threshold": 1.9038928974993365
+                },
+                "value": 0.7443556443556443,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8171828171828172,
+                    "Calls": 729
+                }
+            },
+            {
+                "trial_number": 1,
+                "params": {
+                    "Entropy Threshold": 0.5538362439230712,
+                    "Distance Threshold": 1.2173840441842214
+                },
+                "value": 0.772027972027972,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8291708291708292,
+                    "Calls": 572
+                }
+            },
+            {
+                "trial_number": 2,
+                "params": {
+                    "Entropy Threshold": 0.19673155707431064,
+                    "Distance Threshold": 0.35418931465559517
+                },
+                "value": 0.737962037962038,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8151848151848152,
+                    "Calls": 773
+                }
+            },
+            {
+                "trial_number": 3,
+                "params": {
+                    "Entropy Threshold": 0.13601183954428367,
+                    "Distance Threshold": 1.7390434842611235
+                },
+                "value": 0.7382617382617382,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8161838161838162,
+                    "Calls": 780
+                }
+            },
+            {
+                "trial_number": 4,
+                "params": {
+                    "Entropy Threshold": 0.47269130728078945,
+                    "Distance Threshold": 1.4307415267022887
+                },
+                "value": 0.7627372627372627,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8251748251748252,
+                    "Calls": 625
+                }
+            }
+        ],
+        "0.2": [
+            {
+                "trial_number": 0,
+                "params": {
+                    "Entropy Threshold": 0.33221487368536473,
+                    "Distance Threshold": 1.9038928974993365
+                },
+                "value": 0.6715284715284715,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8171828171828172,
+                    "Calls": 729
+                }
+            },
+            {
+                "trial_number": 1,
+                "params": {
+                    "Entropy Threshold": 0.5538362439230712,
+                    "Distance Threshold": 1.2173840441842214
+                },
+                "value": 0.7148851148851149,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8291708291708292,
+                    "Calls": 572
+                }
+            },
+            {
+                "trial_number": 2,
+                "params": {
+                    "Entropy Threshold": 0.19673155707431064,
+                    "Distance Threshold": 0.35418931465559517
+                },
+                "value": 0.6607392607392608,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8151848151848152,
+                    "Calls": 773
+                }
+            },
+            {
+                "trial_number": 3,
+                "params": {
+                    "Entropy Threshold": 0.13601183954428367,
+                    "Distance Threshold": 1.7390434842611235
+                },
+                "value": 0.6603396603396603,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8161838161838162,
+                    "Calls": 780
+                }
+            },
+            {
+                "trial_number": 4,
+                "params": {
+                    "Entropy Threshold": 0.47269130728078945,
+                    "Distance Threshold": 1.4307415267022887
+                },
+                "value": 0.7002997002997003,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8251748251748252,
+                    "Calls": 625
+                }
+            }
+        ],
+        "0.3": [
+            {
+                "trial_number": 0,
+                "params": {
+                    "Entropy Threshold": 0.33221487368536473,
+                    "Distance Threshold": 1.9038928974993365
+                },
+                "value": 0.5987012987012987,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8171828171828172,
+                    "Calls": 729
+                }
+            },
+            {
+                "trial_number": 1,
+                "params": {
+                    "Entropy Threshold": 0.5538362439230712,
+                    "Distance Threshold": 1.2173840441842214
+                },
+                "value": 0.6577422577422578,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8291708291708292,
+                    "Calls": 572
+                }
+            },
+            {
+                "trial_number": 2,
+                "params": {
+                    "Entropy Threshold": 0.19673155707431064,
+                    "Distance Threshold": 0.35418931465559517
+                },
+                "value": 0.5835164835164836,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8151848151848152,
+                    "Calls": 773
+                }
+            },
+            {
+                "trial_number": 3,
+                "params": {
+                    "Entropy Threshold": 0.13601183954428367,
+                    "Distance Threshold": 1.7390434842611235
+                },
+                "value": 0.5824175824175825,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8161838161838162,
+                    "Calls": 780
+                }
+            },
+            {
+                "trial_number": 4,
+                "params": {
+                    "Entropy Threshold": 0.47269130728078945,
+                    "Distance Threshold": 1.4307415267022887
+                },
+                "value": 0.6378621378621379,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8251748251748252,
+                    "Calls": 625
+                }
+            }
+        ],
+        "0.4": [
+            {
+                "trial_number": 0,
+                "params": {
+                    "Entropy Threshold": 0.33221487368536473,
+                    "Distance Threshold": 1.9038928974993365
+                },
+                "value": 0.5258741258741257,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8171828171828172,
+                    "Calls": 729
+                }
+            },
+            {
+                "trial_number": 1,
+                "params": {
+                    "Entropy Threshold": 0.5538362439230712,
+                    "Distance Threshold": 1.2173840441842214
+                },
+                "value": 0.6005994005994006,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8291708291708292,
+                    "Calls": 572
+                }
+            },
+            {
+                "trial_number": 2,
+                "params": {
+                    "Entropy Threshold": 0.19673155707431064,
+                    "Distance Threshold": 0.35418931465559517
+                },
+                "value": 0.5062937062937063,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8151848151848152,
+                    "Calls": 773
+                }
+            },
+            {
+                "trial_number": 3,
+                "params": {
+                    "Entropy Threshold": 0.13601183954428367,
+                    "Distance Threshold": 1.7390434842611235
+                },
+                "value": 0.5044955044955045,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8161838161838162,
+                    "Calls": 780
+                }
+            },
+            {
+                "trial_number": 4,
+                "params": {
+                    "Entropy Threshold": 0.47269130728078945,
+                    "Distance Threshold": 1.4307415267022887
+                },
+                "value": 0.5754245754245755,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8251748251748252,
+                    "Calls": 625
+                }
+            }
+        ],
+        "0.5": [
+            {
+                "trial_number": 0,
+                "params": {
+                    "Entropy Threshold": 0.33221487368536473,
+                    "Distance Threshold": 1.9038928974993365
+                },
+                "value": 0.453046953046953,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8171828171828172,
+                    "Calls": 729
+                }
+            },
+            {
+                "trial_number": 1,
+                "params": {
+                    "Entropy Threshold": 0.5538362439230712,
+                    "Distance Threshold": 1.2173840441842214
+                },
+                "value": 0.5434565434565435,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8291708291708292,
+                    "Calls": 572
+                }
+            },
+            {
+                "trial_number": 2,
+                "params": {
+                    "Entropy Threshold": 0.19673155707431064,
+                    "Distance Threshold": 0.35418931465559517
+                },
+                "value": 0.4290709290709291,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8151848151848152,
+                    "Calls": 773
+                }
+            },
+            {
+                "trial_number": 3,
+                "params": {
+                    "Entropy Threshold": 0.13601183954428367,
+                    "Distance Threshold": 1.7390434842611235
+                },
+                "value": 0.42657342657342656,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8161838161838162,
+                    "Calls": 780
+                }
+            },
+            {
+                "trial_number": 4,
+                "params": {
+                    "Entropy Threshold": 0.47269130728078945,
+                    "Distance Threshold": 1.4307415267022887
+                },
+                "value": 0.5129870129870131,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8251748251748252,
+                    "Calls": 625
+                }
+            }
+        ],
+        "0.6": [
+            {
+                "trial_number": 0,
+                "params": {
+                    "Entropy Threshold": 0.33221487368536473,
+                    "Distance Threshold": 1.9038928974993365
+                },
+                "value": 0.3802197802197802,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8171828171828172,
+                    "Calls": 729
+                }
+            },
+            {
+                "trial_number": 1,
+                "params": {
+                    "Entropy Threshold": 0.5538362439230712,
+                    "Distance Threshold": 1.2173840441842214
+                },
+                "value": 0.4863136863136863,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8291708291708292,
+                    "Calls": 572
+                }
+            },
+            {
+                "trial_number": 2,
+                "params": {
+                    "Entropy Threshold": 0.19673155707431064,
+                    "Distance Threshold": 0.35418931465559517
+                },
+                "value": 0.35184815184815194,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8151848151848152,
+                    "Calls": 773
+                }
+            },
+            {
+                "trial_number": 3,
+                "params": {
+                    "Entropy Threshold": 0.13601183954428367,
+                    "Distance Threshold": 1.7390434842611235
+                },
+                "value": 0.34865134865134867,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8161838161838162,
+                    "Calls": 780
+                }
+            },
+            {
+                "trial_number": 4,
+                "params": {
+                    "Entropy Threshold": 0.47269130728078945,
+                    "Distance Threshold": 1.4307415267022887
+                },
+                "value": 0.45054945054945056,
+                "state": "COMPLETE",
+                "user_attrs": {
+                    "Accuracy": 0.8251748251748252,
+                    "Calls": 625
+                }
+            }
+        ]
+    }
+}
